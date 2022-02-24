@@ -1,0 +1,10 @@
+nota1 = int(input('Digite a nota da primeira prova: '))
+nota2 = int(input('Digite a nota da segunda prova: '))
+nota3 = int(input('Digite a nota da terceira prova: '))
+m = (nota1 + nota2 + nota3)/3
+if m >= 70:
+  print('Sua média foi de: {:.1f}'.format(m))
+  print('Aprovado!')
+else:
+  print('Sua média foi de: {:.1f}'.format(m))
+  print('Reprovado!')
