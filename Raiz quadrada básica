@@ -1,0 +1,8 @@
+import math
+
+x = float(input('Digite um número: '))
+if x >= 0:
+  y = math.sqrt(x)
+  print('A raiz quadrada de {} é {:.2f}'.format(x, y))
+else:
+  print('O número {} é NEGATIVO, NÃO EXISTE RAIZ DE NÚMERO NEGATIVO!'.format(x))
