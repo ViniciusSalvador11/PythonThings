@@ -1,0 +1,10 @@
+etanol = float(input('Digite o preço do etanol: '))
+gasolina = float(input('Digite o preço da gasolina: '))
+pg = (etanol/gasolina) * 100
+
+if pg <=70:
+  print('O preço do etanol está {:.2f}% do preço da gasolina'.format(pg))
+  print('Abasteça com etanol')
+else:
+  print('O preço do etanol está {:.2f}% do preço da gasolina '.format(pg))
+  print('Abasteça com gasolina')
